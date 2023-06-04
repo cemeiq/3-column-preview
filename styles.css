@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+     margin: 100px 100px !important; 
+  
+    display: flex !important;
+    flex-direction: row !important;
+ 
+}
+
+.col-sm-4{
+    width: 25% !important;
+    color: white !important;
+   
+    padding: 20px 20px !important; 
+    border-radius: 10px;
+}
+
+.box{
+    padding-bottom: 55px !important;
+    padding-right: 55px !important;
+    padding-left: 30px !important;
+}
+.col-sm-4 img{
+    margin-top: 15px;
+}
+
+.col-sm-4 a{
+    padding: 10px 30px;
+    background-color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 20px;;
+    
+   
+}
+
+.col-sm-4 h3{
+    margin-top: 10px;
+}
+
+.col-sm-4 p{
+    margin-bottom: 60px !important;
+}
+   
+
+.orange{
+    background-color: hsl(31, 77%, 52%) !important;
+}
+
+.light-green{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.dark-green{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.orange-btn{
+    color: hsl(31, 77%, 52%);
+}
+
+.light-green-btn{
+    color:  hsl(184, 100%, 22%);
+}
+
+.dark-green-btn{
+    color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 600px) {
+
+    body{
+        max-width: 600px;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 10px !important;
+     
+    }
+
+
+    
+    .col-sm-4{
+        width: 25rem !important;
+        /* color: white !important;
+       
+        padding: 20px 20px !important; 
+        border-radius: 10px;  */
+    }
+    
+    /* .box{
+        /* padding-bottom: 55px !important;
+        padding-right: 55px !important;
+        padding-left: 30px !important; */
+    */
+
+    .col-sm-4 h3{
+        margin-top: 30px;
+    }
+    
+  }
